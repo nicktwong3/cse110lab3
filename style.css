@@ -1,5 +1,6 @@
-head {
+header {
 	background-color: #89e597;
+	border-radius: 10px;
 }
 body {
 	background-color: lightgray;
