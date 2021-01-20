@@ -10,8 +10,11 @@ header {
 	padding: 20px;
 }
 main {
-	overflow: scroll;
+	overflow: wrap;
 	padding-left: 5%;
+}
+nav {
+	position: sticky;
 }
 .language {
 	background-color: lightgray;
