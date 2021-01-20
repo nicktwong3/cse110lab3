@@ -1,9 +1,14 @@
 header {
 	background-color: #89e597;
 	border-radius: 10px;
-}
-body {
-	background-color: lightgray;
-	color: black;
+	padding: 6px;
 }
 
+body {
+	background-color: white;
+	color: black;
+}
+section {
+	background-color: lightgray;
+	color: white;
+}
