@@ -24,15 +24,15 @@ nav {
 }
 button {
 	background-color: skyblue;
-	text: black
+	color: black
 }
 button:hover {
 	background-color: blue;
-	text: white;
+	color: white;
 }
 button:active {
 	background-color:white;
-	text: black;
+	color: black;
 }
 .language {
 	background-color: lightgray;
