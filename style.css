@@ -12,10 +12,13 @@ header {
 }
 main {
 	overflow: wrap;
-	padding-left: 5%;
+	padding-left: 2%;
+	height: 200%
 }
 nav {
 	background-color: skyblue;
+	margin: 0px;
+	padding: 0px 5% 0px 5%;
 	position: sticky;
 	width: 100%;
 }
