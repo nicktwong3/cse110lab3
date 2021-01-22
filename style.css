@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: gray;
 	color: black;
 	height: 100%;
 	margin: 0px;
@@ -7,34 +7,63 @@ body {
 	width: 100%;
 }
 header {
-	background-color: skyblue;
-	padding: 20px;
+	background-color: #EEE;
+	border-bottom: 5px;
+	border-color: black;
+	padding: 21px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
 }
 main {
-	overflow: wrap;
-	padding-left: 2%;
-	height: 200%
+	background-color: white;
+	left: 25%;
+	margin: 50px 0px;
+	min-width: 100px;
+	padding: 10px;
+	position: absolute;
+	width: 50%;
 }
 nav {
-	background-color: skyblue;
-	margin: 0px;
-	padding: 0px 5% 0px 5%;
-	position: sticky;
-	width: 100%;
+	background-color: #EEE;
+	border-width: 0px 2px;
+	border-color: black;
+	display: inline;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 20px;
+	margin-top: 0px;
+	position: inherit;
+	right: 0;
 }
-button {
-	background-color: skyblue;
-	color: black
-}
-button:hover {
-	background-color: blue;
-	color: white;
-}
-button:active {
-	background-color:white;
-	color: black;
+.inline {
+	display:inline;
 }
 .language {
 	background-color: lightgray;
 	color: black;
+}
+.logo {
+	color: black;
+	margin: 0px;
+	padding: 20px;
+	text-decoration: none;
+	vertical-align: center;
+}
+.nav-button {
+	background-color: #EEE;
+	border: 5px;
+	color: black;
+	margin: 0px;
+	padding: 30px;
+	text-decoration: none;
+}
+.nav-button:hover {
+	background-color: lightgray;
+	color: black;
+}
+.nav-button:active {
+	background-color: black;
+	color: white;
 }
