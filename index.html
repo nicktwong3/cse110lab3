@@ -1,50 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>HTML User Site</title>
+		<title>Nicholas Wong</title>
 		<meta name="author" content="Nicholas Wong">
 		<link rel="stylesheet" href="style.css">
 	</head>
-	<body>
-		<header>
-			<h2 class="inline"><a class="logo" href="./index.html">Nicholas Wong</a></h2>
+	<header>
+			<h1 class="inline"><a class="logo" href="./index.html">Nicholas Wong</a></h1>
 			<nav>
 				<a class="nav-button" href="./index.html">Home</a>
 				<a class="nav-button" href="https://github.com/nicktwong3">Github</a>
-				<a class="nav-button" href="">About</a>
+				<a class="nav-button" href="#aboutme">About</a>
 			</nav>
-		</header>
-		<main>	
-			<h3>Somethings I enjoy</h3>
-			<ul>
-				<li>Baseball</li>
-				<li>Video Games</li>
-				<li>Sketching</li>
-			</ul>
-			<section class="aboutme">
-				<h3>About Me</h3>
-				<p>I am a Computer Science student at UCSD</p>
+	</header>
+	<body>
+		<main>
+			<div class="divider"></div>
+			<section class="middle">
+				<section id="aboutme">
+					<h2>About Me</h2>
+					<p>I am a Computer Science student at UCSD</p>
+				</section>
+				<hr>
+				<section id="hobbies">
+					<h3>Hobbies</h3>
+					<div>Baseball</div>
+					<div>Video Games</div>
+					<div>Sketching</div>
+				</section>
+				<hr>
+				<section id="programminglanguage">
+					<h3>Programming Languages</h3>
+					<div>Java</div>
+					<div>C++</div>
+					<div>HTML</div>
+					<div>Python</div>
+				</section>
+				<hr>
+				<section id="spokenlanguage">
+					<h3>Spoken Languages</h3>
+					<div>English</div>
+					<div>Japanese</div>
+				</section>
+				<hr>
+				<section id="education">
+					<h3>Education</h3>
+					<div class="college" id="skyline">
+						<div class="collegename">Skyline College</div><div class="collegeyears">2017</div>
+					</div>
+					<div class="college" id="ccsf">
+						<div class="collegename">City College of San Francisco</div><div class="collegeyears">2018-2019</div>
+					</div>
+					<div class="college" id="ucsd">
+						<div class="collegename">University of California, San Diego</div><div class="collegeyears">2019-Current</div>
+					</div>
+				</section>
+				<hr>
+				<footer>
+					<a href="https://github.com/nicktwong3">Github</a>
+				</footer>
 			</section>
-			<section class="programminglanguage">
-				<h3>Languages</h3>
-				<ul>
-					<li>Java</li>
-					<li>C++</li>
-					<li>HTML</li>
-					<li>Python</li>
-				</ul>
-			</section>
-			<section class="spokenlanguage">
-				<h3>Languages I speak</h3>
-				<ul>
-					<li>English</li>
-					<li>Japanese</li>
-				</ul>
-			</section>
-			<hr>
-			<footer>
-				<a href="https://github.com/nicktwong3">Github</a>
-			</footer>
+			<div class="divider"></div>
 		</main>
+		<a href="#top"><div id="totop" title="To top of page"></div>
+
 	</body>
 </html>

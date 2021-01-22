@@ -1,32 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 body {
-	background-color: gray;
+	background-color: darkgray;
 	color: black;
 	height: 100%;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px 0px;
 	width: 100%;
 }
 header {
 	background-color: #EEE;
 	border-bottom: 5px;
 	border-color: black;
+	display: block;
 	padding: 21px;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 100;
 }
+li {
+	display: inline-block;
+	min-width: 50%;
+}
 main {
-	background-color: white;
 	left: 25%;
-	margin: 50px 0px;
-	min-width: 100px;
-	padding: 10px;
+	margin: 0px;
+	min-width: 250px;
 	position: absolute;
 	width: 50%;
 }
 nav {
-	background-color: #EEE;
 	border-width: 0px 2px;
 	border-color: black;
 	display: inline;
@@ -34,29 +37,58 @@ nav {
 	margin-left: 0px;
 	margin-right: 20px;
 	margin-top: 0px;
-	position: inherit;
+	position: fixed;
+	top: 35px;
 	right: 0;
+	vertical-align: middle;
+}
+.college {
+	display: block;
+	margin-bottom: 10px;
+}
+.collegename {
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+}
+.collegeyears {
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+}
+.divider {
+	height: 100px;
+	display: block;
+	margin: 0px;
+	width: 100%;
 }
 .inline {
 	display:inline;
 }
-.language {
-	background-color: lightgray;
-	color: black;
-}
 .logo {
 	color: black;
+	font-family: 'Permanent Marker', cursive;
 	margin: 0px;
 	padding: 20px;
 	text-decoration: none;
-	vertical-align: center;
+}
+.middle {
+	background-color: white;
+	display: inline-block;
+	margin: 0px;
+	min-width: 250px;
+	padding: 2%;
+	position: static;
+	text-align: center;
+	width: 96%;
 }
 .nav-button {
 	background-color: #EEE;
 	border: 5px;
+	border-color: black;
 	color: black;
 	margin: 0px;
-	padding: 30px;
+	padding: 36px 25px;
 	text-decoration: none;
 }
 .nav-button:hover {
@@ -64,6 +96,39 @@ nav {
 	color: black;
 }
 .nav-button:active {
-	background-color: black;
+	background-color: #555;
 	color: white;
+}
+.test {
+	background-color: gray;
+	color: white;
+	display: block;
+	height: 25%;
+	width: 100%;
+	z-index: 10;
+}
+#education {
+	text-align: center;
+}
+#hobbies,#programminglanguage,#spokenlanguage {
+	text-decoration: none;
+}
+#totop {
+	background-color: black;
+	bottom: 5%;
+	height: 20px;
+	position: fixed;
+	right: 5%;
+	width: 20px;
+	z-index: 20;
+}
+@media screen and (max-width: 750px) {
+	.middle {
+		margin-left: 39px;
+		text-align: left;
+	}
+	main {
+		left: 12%;
+		width: 76%;
+	}
 }
